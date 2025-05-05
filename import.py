@@ -6,6 +6,7 @@ import os
 import gzip
 import shutil
 import numpy as np
+from getMostImportantData import get_most_important_data
 
 IMDB_BASE_URL = "https://datasets.imdbws.com/"
 IMDB_FILES = ["name.basics.tsv.gz", "title.akas.tsv.gz",
@@ -148,6 +149,7 @@ def import_ratings():
 if __name__ == "__main__":
     download_dataset()
     unpack_dataset_files()
+    get_most_important_data()
 
     executeScriptsFromFile("sql/createTables.sql")
     mydb.commit()
