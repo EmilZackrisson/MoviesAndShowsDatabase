@@ -13,22 +13,26 @@ def hello_world():
 
 @app.route("/movies")
 def get_highest_rated_movies():
-    movies = database.get_highest_rated_movies()
+    # movies = database.get_highest_rated_movies()
+    movies = database.get_title("movie")
     return render_template("titleTable.html", titles=movies, type="Movies")
 
 
 @app.route("/shows")
 def get_highest_rated_shows():
-    shows = database.get_highest_rated_shows()
+    # shows = database.get_highest_rated_shows()
+    shows = database.get_title("tvSeries")
     return render_template("titleTable.html", titles=shows, type="Shows")
 
 
-@app.route("/movieOrShow/<string:movShowId>")
-def movie(movShowId):
-    movieOrShow = database.get_movie_or_show(movShowId)
-    if movie:
+@app.route("/title/<string:movShowId>")
+def get_title(movShowId):
+    title = database.get_movie_or_show(movShowId)
+    if title:
+        people = database.get_persons_from_title(movShowId)
+        print(people)
         # movie_obj = MovieOrShow(movie)
-        return str(movieOrShow)
+        return str(title) + "\n" + str(people)
     else:
         return "Movie or show not found", 404
 

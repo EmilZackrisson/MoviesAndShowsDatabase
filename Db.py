@@ -1,5 +1,5 @@
 import mysql.connector
-from Title import Title
+from Models import Character, Title
 
 
 class Db:
@@ -37,11 +37,29 @@ class Db:
 
         return lista
 
+    def get_title(self, type="movie", order_by="avgRating", desc=True, limit=100) -> list[Title]:
+        order = ""
+        if desc:
+            order = "DESC"
+
+        sql = f"SELECT id, Title, avgRating FROM MoviesAndShows INNER JOIN Ratings ON MoviesAndShows.id = Ratings.movShowId WHERE Type = '{type}' ORDER BY {order_by} {order} LIMIT {limit}"
+
+        self.cursor.execute(sql)
+        ret = self.cursor.fetchall()
+
+        lista = []
+        for title in ret:
+            lista.append(self._title_summary_to_dict(title))
+
+        return lista
+
     def get_movie_or_show(self, movShowId: str) -> dict:
         sql = "SELECT * FROM MoviesAndShows WHERE id = %s"
         val = (movShowId,)
         self.cursor.execute(sql, val)
         ret = self.cursor.fetchone()
+        return Title(ret)
+        t = Title()
         return {
             "id": ret[0],
             "Title": ret[1],
@@ -50,6 +68,14 @@ class Db:
             "Runtime": ret[4],
             "Type": ret[5]
         }
+
+    def get_persons_from_title(self, movShowId: str) -> list[Character]:
+        sql = "SELECT name, Roles.category, Roles.character FROM People INNER JOIN Roles ON People.id = Roles.peopleId WHERE Roles.movShowId = %s ORDER BY Roles.ordering"
+        val = (movShowId,)
+        self.cursor.execute(sql, val)
+        all = self.cursor.fetchall()
+
+        return [Character(char[0], char[2]) for char in all]
 
     def rate(self, movShowId: str, rating: float):
         print(movShowId, rating)

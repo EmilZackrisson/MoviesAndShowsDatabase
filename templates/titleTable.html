@@ -38,7 +38,7 @@
 					<td>{{ value }}</td>
 					{% endfor %}
 					<td>
-						<a href="{{ '/movieOrShow/%s'%movie.id|urlencode }}">Info</a>
+						<a href="{{ '/title/%s'%movie.id|urlencode }}">Info</a>
 						<a href="{{ '/rate/%s'%movie.id|urlencode }}">Rate</a>
 					</td>
 				</tr>
