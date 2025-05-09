@@ -8,7 +8,7 @@ def get_most_important_data():
     ratings_df = ratings_df[["tconst", "averageRating", "numVotes"]]
 
     # Get the top 10000 movies and shows
-    top_n_titles = ratings_df.head(10000)
+    top_n_titles = ratings_df.head(1000)
 
     # Save to CSV
     top_n_titles.to_csv("data/top_movies_and_shows.csv", index=False)

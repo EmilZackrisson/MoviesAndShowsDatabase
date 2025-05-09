@@ -1,3 +1,4 @@
+import json
 import mysql.connector
 import pandas as pd
 from alive_progress import alive_bar
@@ -7,12 +8,11 @@ import gzip
 import shutil
 import numpy as np
 from getMostImportantData import get_most_important_data
+import subprocess
 
 IMDB_BASE_URL = "https://datasets.imdbws.com/"
 IMDB_FILES = ["name.basics.tsv.gz", "title.akas.tsv.gz",
               "title.basics.tsv.gz", "title.ratings.tsv.gz", "title.principals.tsv.gz"]
-
-ROW_LIMIT = 100000
 
 mydb = mysql.connector.connect(
     host="127.0.0.1",
@@ -70,10 +70,28 @@ def executeScriptsFromFile(filename):
             print("Command skipped: ", msg)
 
 
+def run_mysql_cli_import(filename):
+    with open(filename, 'r') as f:
+        proc = subprocess.run(
+            ['mysql', '-h', '127.0.0.1', '-P', '3306',
+                '-u', 'root', '-pmysql', 'MovieTvDatabase'],
+            stdin=f
+        )
+        print("exit code mysql:", proc.returncode)
+
+
 def add_professions(person_id: str, professions: list[str]):
     sql = "INSERT INTO Professions (type, PeopleId) VALUES (%s, %s)"
     for profession in professions:
         val = (profession, person_id)
+        cursor.execute(sql, val)
+        mydb.commit()
+
+
+def add_known_for(person_id: str, known_for: list[str]):
+    sql = "INSERT IGNORE INTO KnownFor (peopleId, movShowId) VALUES (%s, %s)"
+    for x in known_for:
+        val = (person_id, x)
         cursor.execute(sql, val)
         mydb.commit()
 
@@ -111,6 +129,43 @@ def import_persons():
                 if len(professions) > 0:
                     add_professions(row["personId"], professions)
 
+            if row["KnownForTitles"] is not None:
+                known_for = row["KnownForTitles"].split(",")
+                if len(known_for) > 0:
+                    add_known_for(row["personId"], known_for)
+
+            bar()
+
+
+def import_roles():
+    persons_df = pd.read_csv("data/top_movies_and_shows_persons.csv")
+    persons_df = persons_df.replace(np.nan, None)
+    with alive_bar(len(persons_df), title="Importing roles") as bar:
+        for _, row in persons_df.iterrows():
+            sql = "INSERT INTO Roles (movShowId, peopleId, category, `character`, ordering) VALUES (%s, %s, %s, %s, %s)"
+
+            characters = row["characters"]
+            if characters is None or characters == '\\N':
+                bar()
+                continue
+
+            try:
+                characters = json.loads(characters)
+            except json.JSONDecodeError:
+                print(f"Invalid JSON in characters: {characters}")
+                bar()
+                continue
+
+            if len(characters) == 0:
+                bar()
+                continue
+
+            for character in characters:
+
+                val = (row["id"], row["personId"],
+                       row["Category"], character, row["ordering"],)
+                cursor.execute(sql, val)
+                mydb.commit()
             bar()
 
 
@@ -147,15 +202,18 @@ def import_ratings():
 
 
 if __name__ == "__main__":
-    download_dataset()
-    unpack_dataset_files()
-    get_most_important_data()
+    # download_dataset()
+    # unpack_dataset_files()
+    # get_most_important_data()
 
     executeScriptsFromFile("sql/createTables.sql")
     mydb.commit()
+
+    run_mysql_cli_import("sql/addRating.sql")
 
     cursor.execute("USE `MovieTvDatabase`;")
 
     import_movies_and_shows()
     import_ratings()
     import_persons()
+    import_roles()

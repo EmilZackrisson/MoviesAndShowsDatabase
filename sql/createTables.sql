@@ -43,13 +43,13 @@ CREATE TABLE `Roles` (
   `movShowId` varchar(12) NOT NULL,
   `peopleId` varchar(12) NOT NULL,
   `category` varchar(45) NOT NULL,
-  `character` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`movShowId`,`peopleId`),
+  `character` varchar(200) DEFAULT NULL,
+  `ordering` int NOT NULL,
+  PRIMARY KEY (`movShowId`,`ordering`),
   KEY `rolesPersonId_idx` (`peopleId`),
   CONSTRAINT `rolesMovShowId` FOREIGN KEY (`movShowId`) REFERENCES `MoviesAndShows` (`id`),
   CONSTRAINT `rolesPersonId` FOREIGN KEY (`peopleId`) REFERENCES `People` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
 
 CREATE TABLE `MovieTvDatabase`.`KnownFor` (
   `peopleId` VARCHAR(12) NOT NULL,
@@ -66,3 +66,4 @@ CREATE TABLE `MovieTvDatabase`.`KnownFor` (
     REFERENCES `MovieTvDatabase`.`MoviesAndShows` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
+
