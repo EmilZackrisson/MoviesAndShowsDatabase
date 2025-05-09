@@ -1,6 +1,8 @@
-<h1>This is home.html</h1>
+<h1>Rate '{{ title.Title }}'</h1>
 <form method="post">
-	Rating: <input name="rating" type="number" step="0.01" id="rating" /> <br />
+	Rating:
+	<input name="rating" type="number" step="0.01" min="0" max="10" id="rating" />
+	<br />
 
 	<button type="submit">Submit</button>
 </form>

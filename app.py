@@ -8,19 +8,19 @@ database = Db()
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return render_template("index.html")
 
 
 @app.route("/movies")
 def get_highest_rated_movies():
     movies = database.get_highest_rated_movies()
-    return str(movies)
+    return render_template("titleTable.html", titles=movies, type="Movies")
 
 
 @app.route("/shows")
 def get_highest_rated_shows():
     shows = database.get_highest_rated_shows()
-    return str(shows)
+    return render_template("titleTable.html", titles=shows, type="Shows")
 
 
 @app.route("/movieOrShow/<string:movShowId>")
@@ -37,17 +37,8 @@ def movie(movShowId):
 def rate(movShowId: str):
     if request.method == "POST":
         # Call rate procedure
-        print(request.form)
         database.rate(movShowId, request.form["rating"])
         return "Rating was successfull"
     else:
-        return render_template("rate.html")
-
-
-# @app.route("/movies/new", methods=["GET", "POST"])
-# def new_movie():
-#     if request.method == "POST":
-#         print(request.form)
-#         return "Movie added successfully"
-#     else:
-#         return render_template("home.html")
+        title = database.get_movie_or_show(movShowId)
+        return render_template("rate.html", title=title)

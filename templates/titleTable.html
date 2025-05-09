@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Movies</title>
+		<style>
+			table {
+				width: 100%;
+				border-collapse: collapse;
+			}
+			th,
+			td {
+				border: 1px solid black;
+				padding: 8px;
+				text-align: left;
+			}
+			th {
+				background-color: #f2f2f2;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Highest Rated {{ type }}</h1>
+		<table>
+			<thead>
+				<tr>
+					{% for key in titles[0].keys() %}
+					<th>{{ key }}</th>
+					{% endfor %}
+					<th>Actions</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for movie in titles %}
+				<tr>
+					{% for value in movie.values() %}
+					<td>{{ value }}</td>
+					{% endfor %}
+					<td>
+						<a href="{{ '/movieOrShow/%s'%movie.id|urlencode }}">Info</a>
+						<a href="{{ '/rate/%s'%movie.id|urlencode }}">Rate</a>
+					</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</body>
+</html>
