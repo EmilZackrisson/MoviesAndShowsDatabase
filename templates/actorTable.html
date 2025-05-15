@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Actors</title>
+		<style>
+			table {
+				width: 100%;
+				border-collapse: collapse;
+			}
+			th,
+			td {
+				border: 1px solid black;
+				padding: 8px;
+				text-align: left;
+			}
+			th {
+				background-color: #f2f2f2;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Actors</h1>
+		<table>
+			<thead>
+				<tr>
+					{% for key in actors[0].keys() %}
+					<th>{{ key }}</th>
+					{% endfor %}
+					<th>Actions</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for actor in actors %}
+				<tr>
+					{% for value in actor.values() %}
+					<td>{{ value }}</td>
+					{% endfor %}
+					<td>
+						<a href="{{ '/actor/%s'%actor.id|urlencode }}">Info</a>
+					</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</body>
+</html>

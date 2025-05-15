@@ -212,6 +212,7 @@ if __name__ == "__main__":
     mydb.commit()
 
     run_mysql_cli_import("sql/addRating.sql")
+    run_mysql_cli_import("sql/getActorTitleCount.sql")
 
     cursor.execute("USE `MovieTvDatabase`;")
 

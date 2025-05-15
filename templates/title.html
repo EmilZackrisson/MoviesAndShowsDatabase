@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{ title.title }} - Info</title>
+        <style>
+			table {
+				width: 100%;
+				border-collapse: collapse;
+			}
+			th,
+			td {
+				border: 1px solid black;
+				padding: 8px;
+				text-align: left;
+			}
+			th {
+				background-color: #f2f2f2;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>{{ title.title }}</h1>
+		<p>Start Year: {{ title.start_year }}</p>
+        <p>End Year: {{ title.end_year }}</p>
+        <p>Runtime: {{ title.runtime }}</p>
+        <p>Type: {{ title.type }}</p>
+
+        <p>Rating: {{ title.rating }}</p>
+
+        <a href="{{ '/rate/%s'%title.id|urlencode }}">Rate!</a>
+
+        <br>
+        <h2>People</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Character</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for actor in people %}
+                <tr>
+                    <td>
+                        <a href="{{ '/actor/%s'%actor.id|urlencode }}">{{actor.name}}</a>
+
+                    </td>
+                    <td>{{ actor.character }}</td>
+
+                </tr>
+                {% endfor %}
+            </tbody>
+	</body>
+</html>

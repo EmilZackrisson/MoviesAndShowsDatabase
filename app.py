@@ -13,14 +13,12 @@ def hello_world():
 
 @app.route("/movies")
 def get_highest_rated_movies():
-    # movies = database.get_highest_rated_movies()
     movies = database.get_title("movie")
     return render_template("titleTable.html", titles=movies, type="Movies")
 
 
 @app.route("/shows")
 def get_highest_rated_shows():
-    # shows = database.get_highest_rated_shows()
     shows = database.get_title("tvSeries")
     return render_template("titleTable.html", titles=shows, type="Shows")
 
@@ -30,9 +28,7 @@ def get_title(movShowId):
     title = database.get_movie_or_show(movShowId)
     if title:
         people = database.get_persons_from_title(movShowId)
-        print(people)
-        # movie_obj = MovieOrShow(movie)
-        return str(title) + "\n" + str(people)
+        return render_template("title.html", title=title, people=people)
     else:
         return "Movie or show not found", 404
 
@@ -46,3 +42,18 @@ def rate(movShowId: str):
     else:
         title = database.get_movie_or_show(movShowId)
         return render_template("rate.html", title=title.title)
+
+
+@app.route("/actors")
+def get_actors():
+    actors = database.get_actors()
+    return render_template("actorTable.html", actors=actors)
+
+
+@app.route("/actor/<string:personId>")
+def get_actor(personId: str):
+    actor = database.get_actor(personId)
+    if actor:
+        return render_template("actor.html", actor=actor)
+    else:
+        return "Actor not found", 404

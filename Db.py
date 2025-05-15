@@ -15,7 +15,7 @@ class Db:
         self.cursor.execute("USE MovieTvDatabase")
 
     def get_highest_rated_movies(self) -> list[dict]:
-        sql = "SELECT id, Title, avgRating FROM MoviesAndShows INNER JOIN Ratings ON MoviesAndShows.id = Ratings.movShowId WHERE Type = 'movie' ORDER BY avgRating DESC LIMIT 100"
+        sql = "SELECT id, Title, avgRating FROM MoviesAndShows INNER JOIN Ratings ON MoviesAndShows.id = Ratings.movShowId WHERE Type = 'movie' ORDER BY avgRating DESC LIMIT 1000"
 
         self.cursor.execute(sql)
         ret = self.cursor.fetchall()
@@ -26,7 +26,7 @@ class Db:
         return lista
 
     def get_highest_rated_shows(self) -> list[Title]:
-        sql = "SELECT id, Title, avgRating FROM MoviesAndShows INNER JOIN Ratings ON MoviesAndShows.id = Ratings.movShowId WHERE Type = 'tvSeries' ORDER BY avgRating DESC LIMIT 100"
+        sql = "SELECT id, Title, avgRating FROM MoviesAndShows INNER JOIN Ratings ON MoviesAndShows.id = Ratings.movShowId WHERE Type = 'tvSeries' ORDER BY avgRating DESC LIMIT 1000"
 
         self.cursor.execute(sql)
         ret = self.cursor.fetchall()
@@ -37,7 +37,7 @@ class Db:
 
         return lista
 
-    def get_title(self, type="movie", order_by="avgRating", desc=True, limit=100) -> list[dict]:
+    def get_title(self, type="movie", order_by="avgRating", desc=True, limit=1000) -> list[dict]:
         order = ""
         if desc:
             order = "DESC"
@@ -58,15 +58,17 @@ class Db:
         val = (movShowId,)
         self.cursor.execute(sql, val)
         ret = self.cursor.fetchone()
-        return Title(ret)
+        title = Title(ret)
+        title.rating = self.get_rating(movShowId)
+        return title
 
     def get_persons_from_title(self, movShowId: str) -> list[Character]:
-        sql = "SELECT name, Roles.category, Roles.character FROM People INNER JOIN Roles ON People.id = Roles.peopleId WHERE Roles.movShowId = %s ORDER BY Roles.ordering"
+        sql = "SELECT id, name, Roles.category, Roles.character FROM People INNER JOIN Roles ON People.id = Roles.peopleId WHERE Roles.movShowId = %s ORDER BY Roles.ordering"
         val = (movShowId,)
         self.cursor.execute(sql, val)
         all = self.cursor.fetchall()
 
-        return [Character(char[0], char[2]) for char in all]
+        return [Character(char[0], char[1], char[3]) for char in all]
 
     def rate(self, movShowId: str, rating: float):
         print(movShowId, rating)
@@ -74,6 +76,56 @@ class Db:
         ret = self.cursor.stored_results()
         for result in ret:
             print(result.fetchall())
+
+    def get_rating(self, movShowId: str) -> float:
+        sql = "SELECT avgRating FROM Ratings WHERE movShowId = %s"
+        val = (movShowId,)
+        self.cursor.execute(sql, val)
+        ret = self.cursor.fetchone()
+        if ret:
+            return ret[0]
+        else:
+            return None
+
+    def get_actors(self) -> list[dict]:
+        sql = "SELECT id, name FROM People LIMIT 1000"
+        self.cursor.execute(sql)
+        ret = self.cursor.fetchall()
+        lista = []
+        for actor in ret:
+            lista.append({
+                "id": actor[0],
+                "name": actor[1]
+            })
+
+        return lista
+
+    def get_actor(self, personId: str) -> dict:
+        sql = "SELECT * FROM People WHERE id = %s"
+        val = (personId,)
+        self.cursor.execute(sql, val)
+        ret = self.cursor.fetchone()
+        titleCount = self.getActorTitleCount(personId)
+        if ret:
+            return {
+                "id": ret[0],
+                "name": ret[1],
+                "birthYear": ret[2],
+                "deathYear": ret[3],
+                "titleCount": titleCount
+            }
+        else:
+            return None
+
+    def getActorTitleCount(self, personId: str) -> int:
+        sql = "SELECT `MovieTvDatabase`.`getActorTitleCount`(%s)"
+        val = (personId,)
+        self.cursor.execute(sql, val)
+        ret = self.cursor.fetchone()
+        if ret:
+            return ret[0]
+        else:
+            return None
 
     def _title_summary_to_dict(self, data):
         return {
