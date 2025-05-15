@@ -41,7 +41,7 @@ def get_title(movShowId):
 def rate(movShowId: str):
     if request.method == "POST":
         # Call rate procedure
-        database.rate(movShowId, request.form["rating"])
+        database.rate(movShowId, float(request.form["rating"]))
         return "Rating was successfull"
     else:
         title = database.get_movie_or_show(movShowId)

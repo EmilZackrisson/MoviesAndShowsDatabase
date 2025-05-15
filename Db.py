@@ -14,7 +14,7 @@ class Db:
         self.cursor = self.mydb.cursor()
         self.cursor.execute("USE MovieTvDatabase")
 
-    def get_highest_rated_movies(self) -> dict:
+    def get_highest_rated_movies(self) -> list[dict]:
         sql = "SELECT id, Title, avgRating FROM MoviesAndShows INNER JOIN Ratings ON MoviesAndShows.id = Ratings.movShowId WHERE Type = 'movie' ORDER BY avgRating DESC LIMIT 100"
 
         self.cursor.execute(sql)
@@ -37,7 +37,7 @@ class Db:
 
         return lista
 
-    def get_title(self, type="movie", order_by="avgRating", desc=True, limit=100) -> list[Title]:
+    def get_title(self, type="movie", order_by="avgRating", desc=True, limit=100) -> list[dict]:
         order = ""
         if desc:
             order = "DESC"
@@ -59,15 +59,6 @@ class Db:
         self.cursor.execute(sql, val)
         ret = self.cursor.fetchone()
         return Title(ret)
-        t = Title()
-        return {
-            "id": ret[0],
-            "Title": ret[1],
-            "StartYear": ret[2],
-            "EndYear": ret[3],
-            "Runtime": ret[4],
-            "Type": ret[5]
-        }
 
     def get_persons_from_title(self, movShowId: str) -> list[Character]:
         sql = "SELECT name, Roles.category, Roles.character FROM People INNER JOIN Roles ON People.id = Roles.peopleId WHERE Roles.movShowId = %s ORDER BY Roles.ordering"
