@@ -31,6 +31,7 @@ def download_dataset():
             print(file, "already downloaded")
             continue
         url = IMDB_BASE_URL + file
+        print("Downloading", url)
         urllib.request.urlretrieve(url, new_path)
 
 
@@ -41,6 +42,7 @@ def uncompress_gz_file(input_path, output_path):
     :param input_path: Path to the .gz file
     :param output_path: Path to save the uncompressed file
     """
+    print("Uncompressing", input_path, "to", output_path)
     with gzip.open(input_path, 'rb') as f_in:
         with open(output_path, 'wb') as f_out:
             shutil.copyfileobj(f_in, f_out)

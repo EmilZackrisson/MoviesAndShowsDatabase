@@ -2,7 +2,8 @@ import pandas as pd
 
 
 def get_most_important_data():
-    ratings_df = pd.read_csv("data/title.ratings.tsv", sep="\t")
+    ratings_df = pd.read_csv("data/title.ratings.tsv",
+                             sep="\t", low_memory=True)
     ratings_df = ratings_df.sort_values(by="numVotes", ascending=False)
     ratings_df = ratings_df.reset_index(drop=True)
     ratings_df = ratings_df[["tconst", "averageRating", "numVotes"]]
@@ -14,7 +15,7 @@ def get_most_important_data():
     top_n_titles.to_csv("data/top_movies_and_shows.csv", index=False)
 
     # Get the most rated movies and shows
-    titles_df = pd.read_csv("data/title.basics.tsv", sep="\t")
+    titles_df = pd.read_csv("data/title.basics.tsv", sep="\t", low_memory=True)
     titles_df = titles_df[["tconst", "primaryTitle", "startYear",
                            "endYear", "runtimeMinutes", "titleType"]]
     titles_df = titles_df[titles_df["tconst"].isin(top_n_titles["tconst"])]
@@ -36,7 +37,7 @@ def get_most_important_data():
 
     # Get persons involved in the movies and shows
     title_principals = pd.read_csv(
-        "data/title.principals.tsv", delimiter="\t")
+        "data/title.principals.tsv", delimiter="\t", low_memory=True)
     title_principals = title_principals[title_principals["tconst"].isin(
         top_n_titles["tconst"])]
     title_principals = title_principals.reset_index(drop=True)
@@ -55,7 +56,7 @@ def get_most_important_data():
         "data/top_movies_and_shows_persons.csv", index=False)
 
     # Get personal details
-    name_df = pd.read_csv("data/name.basics.tsv", sep="\t")
+    name_df = pd.read_csv("data/name.basics.tsv", sep="\t", low_memory=True)
     name_df = name_df[["nconst", "primaryName", "birthYear",
                        "deathYear", "primaryProfession", "knownForTitles"]]
     name_df = name_df[name_df["nconst"].isin(
