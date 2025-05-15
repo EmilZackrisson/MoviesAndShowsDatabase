@@ -53,7 +53,7 @@ class Db:
 
         return lista
 
-    def get_movie_or_show(self, movShowId: str) -> dict:
+    def get_movie_or_show(self, movShowId: str) -> Title:
         sql = "SELECT * FROM MoviesAndShows WHERE id = %s"
         val = (movShowId,)
         self.cursor.execute(sql, val)

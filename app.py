@@ -45,4 +45,4 @@ def rate(movShowId: str):
         return "Rating was successfull"
     else:
         title = database.get_movie_or_show(movShowId)
-        return render_template("rate.html", title=title)
+        return render_template("rate.html", title=title.title)

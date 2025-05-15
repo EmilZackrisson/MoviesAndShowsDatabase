@@ -1,0 +1,1001 @@
+id,Title,StartYear,EndYear,Runtime,Type
+tt0027977,Modern Times,1936,NULL,87,movie
+tt0031381,Gone with the Wind,1939,NULL,238,movie
+tt0032138,The Wizard of Oz,1939,NULL,102,movie
+tt0033467,Citizen Kane,1941,NULL,119,movie
+tt0034583,Casablanca,1942,NULL,102,movie
+tt0038650,It's a Wonderful Life,1946,NULL,130,movie
+tt0045152,Singin' in the Rain,1952,NULL,103,movie
+tt0047396,Rear Window,1954,NULL,112,movie
+tt0047478,Seven Samurai,1954,NULL,207,movie
+tt0050083,12 Angry Men,1957,NULL,96,movie
+tt0052357,Vertigo,1958,NULL,128,movie
+tt0052618,Ben-Hur,1959,NULL,212,movie
+tt0053125,North by Northwest,1959,NULL,136,movie
+tt0053291,Some Like It Hot,1959,NULL,121,movie
+tt0054215,Psycho,1960,NULL,109,movie
+tt0056172,Lawrence of Arabia,1962,NULL,227,movie
+tt0056592,To Kill a Mockingbird,1962,NULL,129,movie
+tt0057012,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,NULL,95,movie
+tt0057115,The Great Escape,1963,NULL,172,movie
+tt0059578,For a Few Dollars More,1965,NULL,132,movie
+tt0059742,The Sound of Music,1965,NULL,172,movie
+tt0060196,"The Good, the Bad and the Ugly",1966,NULL,178,movie
+tt0061722,The Graduate,1967,NULL,106,movie
+tt0062622,2001: A Space Odyssey,1968,NULL,149,movie
+tt0064116,Once Upon a Time in the West,1968,NULL,166,movie
+tt0066921,A Clockwork Orange,1971,NULL,136,movie
+tt0068646,The Godfather,1972,NULL,175,movie
+tt0070047,The Exorcist,1973,NULL,122,movie
+tt0070735,The Sting,1973,NULL,129,movie
+tt0071315,Chinatown,1974,NULL,130,movie
+tt0071562,The Godfather Part II,1974,NULL,202,movie
+tt0071853,Monty Python and the Holy Grail,1975,NULL,91,movie
+tt0072890,Dog Day Afternoon,1975,NULL,125,movie
+tt0073195,Jaws,1975,NULL,124,movie
+tt0073486,One Flew Over the Cuckoo's Nest,1975,NULL,133,movie
+tt0075148,Rocky,1976,NULL,120,movie
+tt0075314,Taxi Driver,1976,NULL,114,movie
+tt0075686,Annie Hall,1977,NULL,93,movie
+tt0076759,Star Wars: Episode IV - A New Hope,1977,NULL,121,movie
+tt0077416,The Deer Hunter,1978,NULL,183,movie
+tt0077631,Grease,1978,NULL,110,movie
+tt0077651,Halloween,1978,NULL,91,movie
+tt0078748,Alien,1979,NULL,117,movie
+tt0078788,Apocalypse Now,1979,NULL,147,movie
+tt0079470,Monty Python's Life of Brian,1979,NULL,94,movie
+tt0080339,Airplane!,1980,NULL,88,movie
+tt0080678,The Elephant Man,1980,NULL,124,movie
+tt0080684,Star Wars: Episode V - The Empire Strikes Back,1980,NULL,124,movie
+tt0081398,Raging Bull,1980,NULL,129,movie
+tt0081505,The Shining,1980,NULL,146,movie
+tt0082096,Das Boot,1981,NULL,149,movie
+tt0082971,Raiders of the Lost Ark,1981,NULL,115,movie
+tt0083658,Blade Runner,1982,NULL,117,movie
+tt0083866,E.T. the Extra-Terrestrial,1982,NULL,115,movie
+tt0083944,First Blood,1982,NULL,93,movie
+tt0084787,The Thing,1982,NULL,109,movie
+tt0086190,Star Wars: Episode VI - Return of the Jedi,1983,NULL,131,movie
+tt0086250,Scarface,1983,NULL,170,movie
+tt0086879,Amadeus,1984,NULL,160,movie
+tt0087332,Ghostbusters,1984,NULL,105,movie
+tt0087469,Indiana Jones and the Temple of Doom,1984,NULL,118,movie
+tt0087800,A Nightmare on Elm Street,1984,NULL,91,movie
+tt0087843,Once Upon a Time in America,1984,NULL,229,movie
+tt0088247,The Terminator,1984,NULL,107,movie
+tt0088763,Back to the Future,1985,NULL,116,movie
+tt0088847,The Breakfast Club,1985,NULL,97,movie
+tt0089218,The Goonies,1985,NULL,114,movie
+tt0090605,Aliens,1986,NULL,137,movie
+tt0091042,Ferris Bueller's Day Off,1986,NULL,103,movie
+tt0091763,Platoon,1986,NULL,120,movie
+tt0092005,Stand by Me,1986,NULL,89,movie
+tt0092099,Top Gun,1986,NULL,109,movie
+tt0092890,Dirty Dancing,1987,NULL,100,movie
+tt0093058,Full Metal Jacket,1987,NULL,116,movie
+tt0093409,Lethal Weapon,1987,NULL,109,movie
+tt0093773,Predator,1987,NULL,107,movie
+tt0093779,The Princess Bride,1987,NULL,98,movie
+tt0093870,RoboCop,1987,NULL,102,movie
+tt0094226,The Untouchables,1987,NULL,119,movie
+tt0094721,Beetlejuice,1988,NULL,92,movie
+tt0095016,Die Hard,1988,NULL,132,movie
+tt0095327,Grave of the Fireflies,1988,NULL,88,movie
+tt0095765,Cinema Paradiso,1988,NULL,174,movie
+tt0095953,Rain Man,1988,NULL,133,movie
+tt0096283,My Neighbor Totoro,1988,NULL,86,movie
+tt0096697,The Simpsons,1989,NULL,22,tvSeries
+tt0096874,Back to the Future Part II,1989,NULL,108,movie
+tt0096895,Batman,1989,NULL,126,movie
+tt0097165,Dead Poets Society,1989,NULL,128,movie
+tt0097576,Indiana Jones and the Last Crusade,1989,NULL,127,movie
+tt0097757,The Little Mermaid,1989,NULL,83,movie
+tt0098904,Seinfeld,1989,1998,22,tvSeries
+tt0099088,Back to the Future Part III,1990,NULL,118,movie
+tt0099348,Dances with Wolves,1990,NULL,181,movie
+tt0099423,Die Hard 2,1990,NULL,124,movie
+tt0099487,Edward Scissorhands,1990,NULL,105,movie
+tt0099674,The Godfather Part III,1990,NULL,162,movie
+tt0099685,Goodfellas,1990,NULL,145,movie
+tt0099785,Home Alone,1990,NULL,103,movie
+tt0100405,Pretty Woman,1990,NULL,119,movie
+tt0100802,Total Recall,1990,NULL,113,movie
+tt0101414,Beauty and the Beast,1991,NULL,84,movie
+tt0102057,Hook,1991,NULL,142,movie
+tt0102926,The Silence of the Lambs,1991,NULL,118,movie
+tt0103064,Terminator 2: Judgment Day,1991,NULL,137,movie
+tt0103639,Aladdin,1992,NULL,90,movie
+tt0103644,Alien³,1992,NULL,114,movie
+tt0103776,Batman Returns,1992,NULL,126,movie
+tt0104257,A Few Good Men,1992,NULL,138,movie
+tt0104431,Home Alone 2: Lost in New York,1992,NULL,120,movie
+tt0105236,Reservoir Dogs,1992,NULL,99,movie
+tt0105323,Scent of a Woman,1992,NULL,156,movie
+tt0105695,Unforgiven,1992,NULL,130,movie
+tt0106977,The Fugitive,1993,NULL,130,movie
+tt0107048,Groundhog Day,1993,NULL,101,movie
+tt0107290,Jurassic Park,1993,NULL,127,movie
+tt0107614,Mrs. Doubtfire,1993,NULL,125,movie
+tt0107688,The Nightmare Before Christmas,1993,NULL,76,movie
+tt0107818,Philadelphia,1993,NULL,125,movie
+tt0108052,Schindler's List,1993,NULL,195,movie
+tt0108778,Friends,1994,2004,22,tvSeries
+tt0109040,Ace Ventura: Pet Detective,1994,NULL,86,movie
+tt0109686,Dumb and Dumber,1994,NULL,107,movie
+tt0109830,Forrest Gump,1994,NULL,142,movie
+tt0110148,Interview with the Vampire,1994,NULL,123,movie
+tt0110357,The Lion King,1994,NULL,88,movie
+tt0110413,Léon: The Professional,1994,NULL,110,movie
+tt0110475,The Mask,1994,NULL,101,movie
+tt0110912,Pulp Fiction,1994,NULL,154,movie
+tt0111161,The Shawshank Redemption,1994,NULL,142,movie
+tt0111257,Speed,1994,NULL,116,movie
+tt0111503,True Lies,1994,NULL,141,movie
+tt0112384,Apollo 13,1995,NULL,140,movie
+tt0112442,Bad Boys,1995,NULL,119,movie
+tt0112462,Batman Forever,1995,NULL,121,movie
+tt0112471,Before Sunrise,1995,NULL,101,movie
+tt0112573,Braveheart,1995,NULL,178,movie
+tt0112641,Casino,1995,NULL,178,movie
+tt0112864,Die Hard with a Vengeance,1995,NULL,128,movie
+tt0113189,GoldenEye,1995,NULL,130,movie
+tt0113277,Heat,1995,NULL,170,movie
+tt0113497,Jumanji,1995,NULL,104,movie
+tt0114369,Se7en,1995,NULL,127,movie
+tt0114709,Toy Story,1995,NULL,81,movie
+tt0114746,12 Monkeys,1995,NULL,129,movie
+tt0114814,The Usual Suspects,1995,NULL,106,movie
+tt0116282,Fargo,1996,NULL,98,movie
+tt0116367,From Dusk Till Dawn,1996,NULL,108,movie
+tt0116629,Independence Day,1996,NULL,145,movie
+tt0116695,Jerry Maguire,1996,NULL,139,movie
+tt0117060,Mission: Impossible,1996,NULL,110,movie
+tt0117500,The Rock,1996,NULL,136,movie
+tt0117571,Scream,1996,NULL,111,movie
+tt0117951,Trainspotting,1996,NULL,93,movie
+tt0118583,Alien Resurrection,1997,NULL,109,movie
+tt0118655,Austin Powers: International Man of Mystery,1997,NULL,89,movie
+tt0118688,Batman & Robin,1997,NULL,125,movie
+tt0118715,The Big Lebowski,1998,NULL,117,movie
+tt0118749,Boogie Nights,1997,NULL,155,movie
+tt0118799,Life Is Beautiful,1997,NULL,116,movie
+tt0118880,Con Air,1997,NULL,115,movie
+tt0118884,Contact,1997,NULL,150,movie
+tt0118971,The Devil's Advocate,1997,NULL,144,movie
+tt0119008,Donnie Brasco,1997,NULL,127,movie
+tt0119094,Face/Off,1997,NULL,138,movie
+tt0119116,The Fifth Element,1997,NULL,126,movie
+tt0119174,The Game,1997,NULL,129,movie
+tt0119177,Gattaca,1997,NULL,106,movie
+tt0119217,Good Will Hunting,1997,NULL,126,movie
+tt0119282,Hercules,1997,NULL,93,movie
+tt0119396,Jackie Brown,1997,NULL,154,movie
+tt0119488,L.A. Confidential,1997,NULL,138,movie
+tt0119528,Liar Liar,1997,NULL,86,movie
+tt0119567,The Lost World: Jurassic Park,1997,NULL,129,movie
+tt0119643,Meet Joe Black,1998,NULL,178,movie
+tt0119654,Men in Black,1997,NULL,98,movie
+tt0119698,Princess Mononoke,1997,NULL,133,movie
+tt0119822,As Good as It Gets,1997,NULL,139,movie
+tt0120201,Starship Troopers,1997,NULL,129,movie
+tt0120338,Titanic,1997,NULL,194,movie
+tt0120363,Toy Story 2,1999,NULL,92,movie
+tt0120382,The Truman Show,1998,NULL,103,movie
+tt0120586,American History X,1998,NULL,119,movie
+tt0120591,Armageddon,1998,NULL,151,movie
+tt0120601,Being John Malkovich,1999,NULL,113,movie
+tt0120611,Blade,1998,NULL,120,movie
+tt0120616,The Mummy,1999,NULL,124,movie
+tt0120623,A Bug's Life,1998,NULL,95,movie
+tt0120660,Enemy of the State,1998,NULL,132,movie
+tt0120663,Eyes Wide Shut,1999,NULL,159,movie
+tt0120667,Fantastic Four,2005,NULL,106,movie
+tt0120669,Fear and Loathing in Las Vegas,1998,NULL,118,movie
+tt0120689,The Green Mile,1999,NULL,189,movie
+tt0120735,"Lock, Stock and Two Smoking Barrels",1998,NULL,107,movie
+tt0120737,The Lord of the Rings: The Fellowship of the Ring,2001,NULL,178,movie
+tt0120755,Mission: Impossible II,2000,NULL,123,movie
+tt0120762,Mulan,1998,NULL,87,movie
+tt0120804,Resident Evil,2002,NULL,100,movie
+tt0120812,Rush Hour,1998,NULL,98,movie
+tt0120815,Saving Private Ryan,1998,NULL,169,movie
+tt0120903,X-Men,2000,NULL,104,movie
+tt0120912,Men in Black II,2002,NULL,88,movie
+tt0120915,Star Wars: Episode I - The Phantom Menace,1999,NULL,136,movie
+tt0121164,Corpse Bride,2005,NULL,77,movie
+tt0121765,Star Wars: Episode II - Attack of the Clones,2002,NULL,142,movie
+tt0121766,Star Wars: Episode III - Revenge of the Sith,2005,NULL,140,movie
+tt0121955,South Park,1997,NULL,22,tvSeries
+tt0125439,Notting Hill,1999,NULL,124,movie
+tt0126029,Shrek,2001,NULL,90,movie
+tt0129387,There's Something About Mary,1998,NULL,119,movie
+tt0133093,The Matrix,1999,NULL,136,movie
+tt0137523,Fight Club,1999,NULL,139,movie
+tt0139654,Training Day,2001,NULL,122,movie
+tt0141842,The Sopranos,1999,2007,60,tvSeries
+tt0144084,American Psycho,2000,NULL,102,movie
+tt0145487,Spider-Man,2002,NULL,121,movie
+tt0147800,10 Things I Hate About You,1999,NULL,97,movie
+tt0149460,Futurama,1999,NULL,22,tvSeries
+tt0151804,Office Space,1999,NULL,89,movie
+tt0162222,Cast Away,2000,NULL,143,movie
+tt0162661,Sleepy Hollow,1999,NULL,105,movie
+tt0163025,Jurassic Park III,2001,NULL,92,movie
+tt0163651,American Pie,1999,NULL,95,movie
+tt0166924,Mulholland Drive,2001,NULL,147,movie
+tt0167190,Hellboy,2004,NULL,122,movie
+tt0167260,The Lord of the Rings: The Return of the King,2003,NULL,201,movie
+tt0167261,The Lord of the Rings: The Two Towers,2002,NULL,179,movie
+tt0167404,The Sixth Sense,1999,NULL,107,movie
+tt0169547,American Beauty,1999,NULL,122,movie
+tt0170016,How the Grinch Stole Christmas,2000,NULL,104,movie
+tt0172156,Bad Boys II,2003,NULL,147,movie
+tt0172495,Gladiator,2000,NULL,155,movie
+tt0175142,Scary Movie,2000,NULL,88,movie
+tt0175880,Magnolia,1999,NULL,188,movie
+tt0180093,Requiem for a Dream,2000,NULL,102,movie
+tt0181689,Minority Report,2002,NULL,145,movie
+tt0181852,Terminator 3: Rise of the Machines,2003,NULL,109,movie
+tt0181875,Almost Famous,2000,NULL,122,movie
+tt0182576,Family Guy,1999,NULL,22,tvSeries
+tt0183649,Phone Booth,2002,NULL,81,movie
+tt0185906,Band of Brothers,2001,2001,60,tvMiniSeries
+tt0185937,The Blair Witch Project,1999,NULL,81,movie
+tt0187078,Gone in 60 Seconds,2000,NULL,118,movie
+tt0187393,The Patriot,2000,NULL,165,movie
+tt0190332,"Crouching Tiger, Hidden Dragon",2000,NULL,120,movie
+tt0190590,"O Brother, Where Art Thou?",2000,NULL,107,movie
+tt0195714,Final Destination,2000,NULL,98,movie
+tt0196229,Zoolander,2001,NULL,90,movie
+tt0198781,"Monsters, Inc.",2001,NULL,92,movie
+tt0203009,Moulin Rouge!,2001,NULL,127,movie
+tt0206634,Children of Men,2006,NULL,109,movie
+tt0208092,Snatch,2000,NULL,102,movie
+tt0209144,Memento,2000,NULL,113,movie
+tt0209163,The Mummy Returns,2001,NULL,130,movie
+tt0211915,Amélie,2001,NULL,122,movie
+tt0212338,Meet the Parents,2000,NULL,108,movie
+tt0212720,A.I. Artificial Intelligence,2001,NULL,146,movie
+tt0212985,Hannibal,2001,NULL,131,movie
+tt0213149,Pearl Harbor,2001,NULL,183,movie
+tt0215750,Enemy at the Gates,2001,NULL,131,movie
+tt0217505,Gangs of New York,2002,NULL,167,movie
+tt0217869,Unbreakable,2000,NULL,106,movie
+tt0221027,Blow,2001,NULL,124,movie
+tt0230600,The Others,2001,NULL,104,movie
+tt0232500,The Fast and the Furious,2001,NULL,106,movie
+tt0234215,The Matrix Reloaded,2003,NULL,138,movie
+tt0238380,Equilibrium,2002,NULL,107,movie
+tt0240772,Ocean's Eleven,2001,NULL,116,movie
+tt0241527,Harry Potter and the Sorcerer's Stone,2001,NULL,152,movie
+tt0242653,The Matrix Revolutions,2003,NULL,129,movie
+tt0243155,Bridget Jones's Diary,2001,NULL,97,movie
+tt0245429,Spirited Away,2001,NULL,124,movie
+tt0245712,Amores Perros,2000,NULL,154,movie
+tt0246578,Donnie Darko,2001,NULL,113,movie
+tt0250494,Legally Blonde,2001,NULL,96,movie
+tt0251127,How to Lose a Guy in 10 Days,2003,NULL,116,movie
+tt0252866,American Pie 2,2001,NULL,108,movie
+tt0253474,The Pianist,2002,NULL,150,movie
+tt0257044,Road to Perdition,2002,NULL,117,movie
+tt0258000,Panic Room,2002,NULL,112,movie
+tt0258463,The Bourne Identity,2002,NULL,119,movie
+tt0259711,Vanilla Sky,2001,NULL,136,movie
+tt0264464,Catch Me If You Can,2002,NULL,141,movie
+tt0265086,Black Hawk Down,2001,NULL,144,movie
+tt0265666,The Royal Tenenbaums,2001,NULL,110,movie
+tt0266543,Finding Nemo,2003,NULL,100,movie
+tt0266697,Kill Bill: Vol. 1,2003,NULL,111,movie
+tt0268380,Ice Age,2002,NULL,81,movie
+tt0268978,A Beautiful Mind,2001,NULL,135,movie
+tt0278504,Insomnia,2002,NULL,118,movie
+tt0285403,Scrubs,2001,2010,22,tvSeries
+tt0286106,Signs,2002,NULL,106,movie
+tt0286716,Hulk,2003,NULL,138,movie
+tt0289043,28 Days Later,2002,NULL,113,movie
+tt0289765,Red Dragon,2002,NULL,124,movie
+tt0289879,The Butterfly Effect,2004,NULL,113,movie
+tt0290002,Meet the Fockers,2004,NULL,115,movie
+tt0290334,X2: X-Men United,2003,NULL,134,movie
+tt0293662,The Transporter,2002,NULL,92,movie
+tt0295297,Harry Potter and the Chamber of Secrets,2002,NULL,161,movie
+tt0298130,The Ring,2002,NULL,115,movie
+tt0298148,Shrek 2,2004,NULL,93,movie
+tt0298203,8 Mile,2002,NULL,110,movie
+tt0303461,Firefly,2002,2003,45,tvSeries
+tt0304141,Harry Potter and the Prisoner of Azkaban,2004,NULL,142,movie
+tt0306414,The Wire,2002,2008,60,tvSeries
+tt0309698,Identity,2003,NULL,90,movie
+tt0314331,Love Actually,2003,NULL,135,movie
+tt0315327,Bruce Almighty,2003,NULL,101,movie
+tt0316654,Spider-Man 2,2004,NULL,127,movie
+tt0317219,Cars,2006,NULL,116,movie
+tt0317248,City of God,2002,NULL,130,movie
+tt0317705,The Incredibles,2004,NULL,115,movie
+tt0317740,The Italian Job,2003,NULL,111,movie
+tt0317919,Mission: Impossible III,2006,NULL,126,movie
+tt0319061,Big Fish,2003,NULL,125,movie
+tt0319262,The Day After Tomorrow,2004,NULL,124,movie
+tt0319343,Elf,2003,NULL,97,movie
+tt0320661,Kingdom of Heaven,2005,NULL,144,movie
+tt0320691,Underworld,2003,NULL,121,movie
+tt0322259,2 Fast 2 Furious,2003,NULL,107,movie
+tt0325710,The Last Samurai,2003,NULL,154,movie
+tt0325980,Pirates of the Caribbean: The Curse of the Black Pearl,2003,NULL,143,movie
+tt0327056,Mystic River,2003,NULL,138,movie
+tt0327597,Coraline,2009,NULL,100,movie
+tt0328107,Man on Fire,2004,NULL,146,movie
+tt0330373,Harry Potter and the Goblet of Fire,2005,NULL,157,movie
+tt0332280,The Notebook,2004,NULL,123,movie
+tt0332379,School of Rock,2003,NULL,109,movie
+tt0332452,Troy,2004,NULL,163,movie
+tt0335266,Lost in Translation,2003,NULL,102,movie
+tt0337978,Live Free or Die Hard,2007,NULL,128,movie
+tt0338013,Eternal Sunshine of the Spotless Mind,2004,NULL,108,movie
+tt0338526,Van Helsing,2004,NULL,131,movie
+tt0338751,The Aviator,2004,NULL,170,movie
+tt0343660,50 First Dates,2004,NULL,99,movie
+tt0343818,"I, Robot",2004,NULL,115,movie
+tt0347149,Howl's Moving Castle,2004,NULL,119,movie
+tt0348150,Superman Returns,2006,NULL,154,movie
+tt0349903,Ocean's Twelve,2004,NULL,125,movie
+tt0351283,Madagascar,2005,NULL,86,movie
+tt0356910,Mr. & Mrs. Smith,2005,NULL,120,movie
+tt0357413,Anchorman: The Legend of Ron Burgundy,2004,NULL,94,movie
+tt0358273,Walk the Line,2005,NULL,136,movie
+tt0359950,The Secret Life of Walter Mitty,2013,NULL,114,movie
+tt0360486,Constantine,2005,NULL,121,movie
+tt0360717,King Kong,2005,NULL,187,movie
+tt0361748,Inglourious Basterds,2009,NULL,153,movie
+tt0361862,The Machinist,2004,NULL,101,movie
+tt0362227,The Terminal,2004,NULL,128,movie
+tt0363163,Downfall,2004,NULL,156,movie
+tt0363547,Dawn of the Dead,2004,NULL,101,movie
+tt0363771,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",2005,NULL,143,movie
+tt0364569,Oldboy,2003,NULL,120,movie
+tt0364725,Dodgeball: A True Underdog Story,2004,NULL,92,movie
+tt0365748,Shaun of the Dead,2004,NULL,99,movie
+tt0367279,Arrested Development,2003,2019,22,tvSeries
+tt0367594,Charlie and the Chocolate Factory,2005,NULL,115,movie
+tt0367882,Indiana Jones and the Kingdom of the Crystal Skull,2008,NULL,122,movie
+tt0368447,The Village,2004,NULL,108,movie
+tt0368891,National Treasure,2004,NULL,131,movie
+tt0369179,Two and a Half Men,2003,2015,22,tvSeries
+tt0369339,Collateral,2004,NULL,120,movie
+tt0369610,Jurassic World,2015,NULL,124,movie
+tt0371746,Iron Man,2008,NULL,126,movie
+tt0372183,The Bourne Supremacy,2004,NULL,108,movie
+tt0372784,Batman Begins,2005,NULL,140,movie
+tt0373889,Harry Potter and the Order of the Phoenix,2007,NULL,138,movie
+tt0375679,Crash,2004,NULL,112,movie
+tt0376994,X-Men: The Last Stand,2006,NULL,104,movie
+tt0377092,Mean Girls,2004,NULL,97,movie
+tt0378194,Kill Bill: Vol. 2,2004,NULL,137,movie
+tt0379786,Serenity,2005,NULL,119,movie
+tt0381061,Casino Royale,2006,NULL,144,movie
+tt0381681,Before Sunset,2004,NULL,80,movie
+tt0381849,3:10 to Yuma,2007,NULL,122,movie
+tt0382625,The Da Vinci Code,2006,NULL,149,movie
+tt0382932,Ratatouille,2007,NULL,111,movie
+tt0383574,Pirates of the Caribbean: Dead Man's Chest,2006,NULL,151,movie
+tt0386588,Hitch,2005,NULL,118,movie
+tt0386676,The Office,2005,2013,22,tvSeries
+tt0387564,Saw,2004,NULL,103,movie
+tt0388629,One Piece,1999,NULL,24,tvSeries
+tt0388795,Brokeback Mountain,2005,NULL,134,movie
+tt0389860,Click,2006,NULL,107,movie
+tt0395169,Hotel Rwanda,2004,NULL,121,movie
+tt0396171,Perfume: The Story of a Murderer,2006,NULL,147,movie
+tt0396269,Wedding Crashers,2005,NULL,119,movie
+tt0398286,Tangled,2010,NULL,100,movie
+tt0399146,A History of Violence,2005,NULL,96,movie
+tt0399201,The Island,2005,NULL,136,movie
+tt0399295,Lord of War,2005,NULL,122,movie
+tt0401729,John Carter,2012,NULL,132,movie
+tt0401792,Sin City,2005,NULL,124,movie
+tt0405094,The Lives of Others,2006,NULL,137,movie
+tt0405159,Million Dollar Baby,2004,NULL,132,movie
+tt0405422,The 40-Year-Old Virgin,2005,NULL,116,movie
+tt0407304,War of the Worlds,2005,NULL,117,movie
+tt0407887,The Departed,2006,NULL,151,movie
+tt0408236,Sweeney Todd: The Demon Barber of Fleet Street,2007,NULL,116,movie
+tt0409459,Watchmen,2009,NULL,162,movie
+tt0411008,Lost,2004,2010,45,tvSeries
+tt0411477,Hellboy II: The Golden Army,2008,NULL,120,movie
+tt0412142,House,2004,2012,45,tvSeries
+tt0413267,Shrek the Third,2007,NULL,93,movie
+tt0413300,Spider-Man 3,2007,NULL,139,movie
+tt0413573,Grey's Anatomy,2005,NULL,45,tvSeries
+tt0414387,Pride & Prejudice,2005,NULL,129,movie
+tt0416449,300,2006,NULL,117,movie
+tt0417299,Avatar: The Last Airbender,2005,2008,23,tvSeries
+tt0417741,Harry Potter and the Half-Blood Prince,2009,NULL,153,movie
+tt0418279,Transformers,2007,NULL,144,movie
+tt0421715,The Curious Case of Benjamin Button,2008,NULL,166,movie
+tt0425112,Hot Fuzz,2007,NULL,121,movie
+tt0425210,Lucky Number Slevin,2006,NULL,110,movie
+tt0429493,The A-Team,2010,NULL,117,movie
+tt0432283,Fantastic Mr. Fox,2009,NULL,87,movie
+tt0432348,Saw II,2005,NULL,93,movie
+tt0433035,Real Steel,2011,NULL,127,movie
+tt0434409,V for Vendetta,2005,NULL,132,movie
+tt0435761,Toy Story 3,2010,NULL,103,movie
+tt0437086,Alita: Battle Angel,2019,NULL,122,movie
+tt0438097,Ice Age: The Meltdown,2006,NULL,91,movie
+tt0438488,Terminator Salvation,2009,NULL,115,movie
+tt0440963,The Bourne Ultimatum,2007,NULL,115,movie
+tt0441773,Kung Fu Panda,2008,NULL,92,movie
+tt0443272,Lincoln,2012,NULL,150,movie
+tt0443453,Borat,2006,NULL,84,movie
+tt0443543,The Illusionist,2006,NULL,110,movie
+tt0443706,Zodiac,2007,NULL,157,movie
+tt0446029,Scott Pilgrim vs. the World,2010,NULL,112,movie
+tt0448115,Shazam!,2019,NULL,132,movie
+tt0448134,Sunshine,2007,NULL,107,movie
+tt0448157,Hancock,2008,NULL,92,movie
+tt0449059,Little Miss Sunshine,2006,NULL,101,movie
+tt0449088,Pirates of the Caribbean: At World's End,2007,NULL,169,movie
+tt0449467,Babel,2006,NULL,143,movie
+tt0450259,Blood Diamond,2006,NULL,143,movie
+tt0450385,1408,2007,NULL,104,movie
+tt0451279,Wonder Woman,2017,NULL,141,movie
+tt0452623,Gone Baby Gone,2007,NULL,114,movie
+tt0453467,Deja Vu,2006,NULL,126,movie
+tt0454848,Inside Man,2006,NULL,129,movie
+tt0454876,Life of Pi,2012,NULL,127,movie
+tt0454921,The Pursuit of Happyness,2006,NULL,117,movie
+tt0455275,Prison Break,2005,2017,44,tvSeries
+tt0455944,The Equalizer,2014,NULL,132,movie
+tt0457430,Pan's Labyrinth,2006,NULL,118,movie
+tt0457939,The Holiday,2006,NULL,136,movie
+tt0458339,Captain America: The First Avenger,2011,NULL,124,movie
+tt0458352,The Devil Wears Prada,2006,NULL,109,movie
+tt0458525,X-Men Origins: Wolverine,2009,NULL,107,movie
+tt0460649,How I Met Your Mother,2005,2014,23,tvSeries
+tt0460681,Supernatural,2005,2020,44,tvSeries
+tt0462538,The Simpsons Movie,2007,NULL,87,movie
+tt0463854,28 Weeks Later,2007,NULL,100,movie
+tt0463985,The Fast and the Furious: Tokyo Drift,2006,NULL,104,movie
+tt0467406,Juno,2007,NULL,96,movie
+tt0468569,The Dark Knight,2008,NULL,152,movie
+tt0469494,There Will Be Blood,2007,NULL,158,movie
+tt0470752,Ex Machina,2014,NULL,108,movie
+tt0472043,Apocalypto,2006,NULL,139,movie
+tt0472954,It's Always Sunny in Philadelphia,2005,NULL,22,tvSeries
+tt0473075,Prince of Persia: The Sands of Time,2010,NULL,116,movie
+tt0475784,Westworld,2016,2022,60,tvSeries
+tt0477347,Night at the Museum,2006,NULL,108,movie
+tt0477348,No Country for Old Men,2007,NULL,122,movie
+tt0478087,21,2008,NULL,123,movie
+tt0478311,Knocked Up,2007,NULL,129,movie
+tt0478970,Ant-Man,2015,NULL,117,movie
+tt0479884,Crank,2006,NULL,88,movie
+tt0480249,I Am Legend,2007,NULL,101,movie
+tt0482571,The Prestige,2006,NULL,130,movie
+tt0486576,Fantastic Four: Rise of the Silver Surfer,2007,NULL,92,movie
+tt0486655,Stardust,2007,NULL,127,movie
+tt0486822,Disturbia,2007,NULL,105,movie
+tt0489099,Jumper,2008,NULL,88,movie
+tt0493464,Wanted,2008,NULL,110,movie
+tt0496806,Ocean's Thirteen,2007,NULL,122,movie
+tt0497465,Vicky Cristina Barcelona,2008,NULL,96,movie
+tt0499549,Avatar,2009,NULL,162,movie
+tt0758758,Into the Wild,2007,NULL,148,movie
+tt0765429,American Gangster,2007,NULL,157,movie
+tt0765443,Eastern Promises,2007,NULL,100,movie
+tt0770828,Man of Steel,2013,NULL,143,movie
+tt0773262,Dexter,2006,2013,60,tvSeries
+tt0780504,Drive,2011,NULL,100,movie
+tt0780536,In Bruges,2008,NULL,107,movie
+tt0783233,Atonement,2007,NULL,123,movie
+tt0790636,Dallas Buyers Club,2013,NULL,117,movie
+tt0790724,Jack Reacher,2012,NULL,130,movie
+tt0795421,Mamma Mia!,2008,NULL,108,movie
+tt0796366,Star Trek,2009,NULL,127,movie
+tt0800039,Forgetting Sarah Marshall,2008,NULL,111,movie
+tt0800080,The Incredible Hulk,2008,NULL,112,movie
+tt0800320,Clash of the Titans,2010,NULL,106,movie
+tt0800369,Thor,2011,NULL,115,movie
+tt0803096,Warcraft,2016,NULL,123,movie
+tt0804503,Mad Men,2007,2015,45,tvSeries
+tt0808151,Angels & Demons,2009,NULL,138,movie
+tt0814314,Seven Pounds,2008,NULL,123,movie
+tt0816692,Interstellar,2014,NULL,169,movie
+tt0816711,World War Z,2013,NULL,116,movie
+tt0822854,Shooter,2007,NULL,124,movie
+tt0824747,Changeling,2008,NULL,141,movie
+tt0825232,The Bucket List,2007,NULL,97,movie
+tt0829482,Superbad,2007,NULL,113,movie
+tt0830515,Quantum of Solace,2008,NULL,106,movie
+tt0831387,Godzilla,2014,NULL,123,movie
+tt0837562,Hotel Transylvania,2012,NULL,91,movie
+tt0838283,Step Brothers,2008,NULL,98,movie
+tt0840361,The Town,2010,NULL,125,movie
+tt0844441,True Blood,2008,2014,55,tvSeries
+tt0844471,Cloudy with a Chance of Meatballs,2009,NULL,90,movie
+tt0848228,The Avengers,2012,NULL,143,movie
+tt0877057,Death Note,2006,2007,24,tvSeries
+tt0878804,The Blind Side,2009,NULL,129,movie
+tt0884328,The Mist,2007,NULL,126,movie
+tt0887883,Burn After Reading,2008,NULL,96,movie
+tt0887912,The Hurt Locker,2008,NULL,131,movie
+tt0892769,How to Train Your Dragon,2010,NULL,98,movie
+tt0898266,The Big Bang Theory,2007,2019,22,tvSeries
+tt0903624,The Hobbit: An Unexpected Journey,2012,NULL,169,movie
+tt0903747,Breaking Bad,2008,2013,45,tvSeries
+tt0910936,Pineapple Express,2008,NULL,111,movie
+tt0910970,WALL·E,2008,NULL,98,movie
+tt0926084,Harry Potter and the Deathly Hallows: Part 1,2010,NULL,146,movie
+tt0936501,Taken,2008,NULL,90,movie
+tt0942385,Tropic Thunder,2008,NULL,107,movie
+tt0944835,Salt,2010,NULL,100,movie
+tt0944947,Game of Thrones,2011,2019,60,tvSeries
+tt0945513,Source Code,2011,NULL,93,movie
+tt0947798,Black Swan,2010,NULL,108,movie
+tt0948470,The Amazing Spider-Man,2012,NULL,136,movie
+tt0955308,Robin Hood,2010,NULL,140,movie
+tt0964517,The Fighter,2010,NULL,116,movie
+tt0970179,Hugo,2011,NULL,126,movie
+tt0974015,Justice League,2017,NULL,120,movie
+tt0976051,The Reader,2008,NULL,124,movie
+tt0985699,Valkyrie,2008,NULL,121,movie
+tt0988045,Sherlock Holmes,2009,NULL,128,movie
+tt0993846,The Wolf of Wall Street,2013,NULL,180,movie
+tt1001526,Megamind,2010,NULL,95,movie
+tt10048342,The Queen's Gambit,2020,2020,60,tvMiniSeries
+tt1010048,Slumdog Millionaire,2008,NULL,120,movie
+tt1013752,Fast & Furious,2009,NULL,107,movie
+tt1014759,Alice in Wonderland,2010,NULL,108,movie
+tt1016150,All Quiet on the Western Front,2022,NULL,148,movie
+tt1022603,500 Days of Summer,2009,NULL,95,movie
+tt10234724,Moon Knight,2022,2022,48,tvMiniSeries
+tt1024648,Argo,2012,NULL,120,movie
+tt1028528,Death Proof,2007,NULL,127,movie
+tt1028532,Hachi: A Dog's Tale,2009,NULL,93,movie
+tt1032755,RocknRolla,2008,NULL,114,movie
+tt10366206,John Wick: Chapter 4,2023,NULL,169,movie
+tt1037705,The Book of Eli,2010,NULL,118,movie
+tt1041829,The Proposal,2009,NULL,108,movie
+tt1045658,Silver Linings Playbook,2012,NULL,122,movie
+tt1049413,Up,2009,NULL,96,movie
+tt1051906,The Invisible Man,2020,NULL,124,movie
+tt1055369,Transformers: Revenge of the Fallen,2009,NULL,149,movie
+tt1060277,Cloverfield,2008,NULL,85,movie
+tt10648342,Thor: Love and Thunder,2022,NULL,118,movie
+tt1065073,Boyhood,2014,NULL,165,movie
+tt1068680,Yes Man,2008,NULL,104,movie
+tt1074638,Skyfall,2012,NULL,143,movie
+tt1077368,Dark Shadows,2012,NULL,113,movie
+tt1080016,Ice Age: Dawn of the Dinosaurs,2009,NULL,94,movie
+tt10811166,The Kashmir Files,2022,NULL,170,movie
+tt10838180,The Matrix Resurrections,2021,NULL,148,movie
+tt10872600,Spider-Man: No Way Home,2021,NULL,148,movie
+tt1091191,Lone Survivor,2013,NULL,121,movie
+tt10919420,Squid Game,2021,2025,60,tvSeries
+tt1092026,Paul,2011,NULL,104,movie
+tt10954984,Nope,2022,NULL,130,movie
+tt10986410,Ted Lasso,2020,NULL,30,tvSeries
+tt1099212,Twilight,2008,NULL,122,movie
+tt1104001,Tron: Legacy,2010,NULL,125,movie
+tt11126994,Arcane,2021,2024,40,tvSeries
+tt11138512,The Northman,2022,NULL,137,movie
+tt1119644,Fringe,2008,2013,46,tvSeries
+tt1119646,The Hangover,2009,NULL,100,movie
+tt11198330,House of the Dragon,2022,NULL,50,tvSeries
+tt1124373,Sons of Anarchy,2008,2014,45,tvSeries
+tt1125849,The Wrestler,2008,NULL,109,movie
+tt11280740,Severance,2022,NULL,50,tvSeries
+tt11286314,Don't Look Up,2021,NULL,138,movie
+tt1130884,Shutter Island,2010,NULL,138,movie
+tt1133985,Green Lantern,2011,NULL,114,movie
+tt1136608,District 9,2009,NULL,112,movie
+tt1148204,Orphan,2009,NULL,123,movie
+tt1152836,Public Enemies,2009,NULL,140,movie
+tt1156398,Zombieland,2009,NULL,88,movie
+tt11564570,Glass Onion,2022,NULL,139,movie
+tt1160419,Dune: Part One,2021,NULL,155,movie
+tt1170358,The Hobbit: The Desolation of Smaug,2013,NULL,161,movie
+tt1179904,Paranormal Activity,2007,NULL,86,movie
+tt1179933,10 Cloverfield Lane,2016,NULL,103,movie
+tt11813216,The Banshees of Inisherin,2022,NULL,114,movie
+tt1182345,Moon,2009,NULL,97,movie
+tt1187043,3 Idiots,2009,NULL,170,movie
+tt1190080,2012,2009,NULL,158,movie
+tt1190634,The Boys,2019,NULL,60,tvSeries
+tt1192628,Rango,2011,NULL,107,movie
+tt1193138,Up in the Air,2009,NULL,109,movie
+tt1194173,The Bourne Legacy,2012,NULL,135,movie
+tt1197624,Law Abiding Citizen,2009,NULL,109,movie
+tt1201607,Harry Potter and the Deathly Hallows: Part 2,2011,NULL,130,movie
+tt12037194,Furiosa: A Mad Max Saga,2024,NULL,148,movie
+tt1205489,Gran Torino,2008,NULL,116,movie
+tt1210166,Moneyball,2011,NULL,133,movie
+tt1211837,Doctor Strange,2016,NULL,115,movie
+tt1211956,Escape Plan,2013,NULL,115,movie
+tt1213663,The World's End,2013,NULL,109,movie
+tt1217209,Brave,2012,NULL,93,movie
+tt1219289,Limitless,2011,NULL,105,movie
+tt1228705,Iron Man 2,2010,NULL,124,movie
+tt1229238,Mission: Impossible - Ghost Protocol,2011,NULL,132,movie
+tt1231583,Due Date,2010,NULL,95,movie
+tt1232829,21 Jump Street,2012,NULL,109,movie
+tt12361974,Zack Snyder's Justice League,2021,NULL,242,movie
+tt1243957,The Tourist,2010,NULL,103,movie
+tt1245492,This Is the End,2013,NULL,107,movie
+tt1245526,Red,2010,NULL,111,movie
+tt1250777,Kick-Ass,2010,NULL,117,movie
+tt1253863,300: Rise of an Empire,2014,NULL,102,movie
+tt12593682,Bullet Train,2022,NULL,127,movie
+tt1259521,The Cabin in the Woods,2011,NULL,95,movie
+tt1259571,The Twilight Saga: New Moon,2009,NULL,130,movie
+tt12637874,Fallout,2024,NULL,60,tvSeries
+tt1266020,Parks and Recreation,2009,2015,22,tvSeries
+tt1270797,Venom,2018,NULL,112,movie
+tt1270798,X-Men: First Class,2011,NULL,131,movie
+tt1276104,Looper,2012,NULL,119,movie
+tt1282140,Easy A,2010,NULL,92,movie
+tt1285016,The Social Network,2010,NULL,120,movie
+tt1291584,Warrior,2011,NULL,140,movie
+tt1298650,Pirates of the Caribbean: On Stranger Tides,2011,NULL,136,movie
+tt1300854,Iron Man 3,2013,NULL,130,movie
+tt1302006,The Irishman,2019,NULL,209,movie
+tt1302011,Kung Fu Panda 2,2011,NULL,90,movie
+tt1306980,50/50,2011,NULL,100,movie
+tt1312171,The Umbrella Academy,2019,2024,60,tvSeries
+tt1318514,Rise of the Planet of the Apes,2011,NULL,105,movie
+tt1320253,The Expendables,2010,NULL,103,movie
+tt1323594,Despicable Me,2010,NULL,95,movie
+tt1325004,The Twilight Saga: Eclipse,2010,NULL,124,movie
+tt1340138,Terminator Genisys,2015,NULL,126,movie
+tt13406094,The White Lotus,2021,NULL,54,tvSeries
+tt1343092,The Great Gatsby,2013,NULL,143,movie
+tt1343727,Dredd,2012,NULL,95,movie
+tt13443470,Wednesday,2022,NULL,45,tvSeries
+tt1345836,The Dark Knight Rises,2012,NULL,164,movie
+tt1355644,Passengers,2016,NULL,116,movie
+tt1371111,Cloud Atlas,2012,NULL,172,movie
+tt1375666,Inception,2010,NULL,148,movie
+tt1375670,Grown Ups,2010,NULL,102,movie
+tt1385826,The Adjustment Bureau,2011,NULL,106,movie
+tt1386588,The Other Guys,2010,NULL,107,movie
+tt1386697,Suicide Squad,2016,NULL,123,movie
+tt1386703,Total Recall,2012,NULL,118,movie
+tt1392170,The Hunger Games,2012,NULL,142,movie
+tt1392190,Mad Max: Fury Road,2015,NULL,120,movie
+tt1392214,Prisoners,2013,NULL,153,movie
+tt1396484,It,2017,NULL,135,movie
+tt1397280,Taken 2,2012,NULL,92,movie
+tt1399103,Transformers: Dark of the Moon,2011,NULL,154,movie
+tt1401152,Unknown,2011,NULL,113,movie
+tt1403865,True Grit,2010,NULL,110,movie
+tt1405406,The Vampire Diaries,2009,2017,43,tvSeries
+tt1408101,Star Trek Into Darkness,2013,NULL,132,movie
+tt1409024,Men in Black³,2012,NULL,106,movie
+tt1411697,The Hangover Part II,2011,NULL,102,movie
+tt14230458,Poor Things,2023,NULL,141,movie
+tt1430132,The Wolverine,2013,NULL,126,movie
+tt1431045,Deadpool,2016,NULL,108,movie
+tt14392248,Aspirants,2021,NULL,45,tvSeries
+tt1439629,Community,2009,2015,22,tvSeries
+tt1442437,Modern Family,2009,2020,22,tvSeries
+tt1442449,Spartacus,2010,2013,60,tvSeries
+tt14452776,The Bear,2022,NULL,34,tvSeries
+tt1446714,Prometheus,2012,NULL,124,movie
+tt1453405,Monsters University,2013,NULL,104,movie
+tt1454029,The Help,2011,NULL,146,movie
+tt1454468,Gravity,2013,NULL,91,movie
+tt1457767,The Conjuring,2013,NULL,112,movie
+tt1464335,Uncharted,2022,NULL,116,movie
+tt1475582,Sherlock,2010,2017,90,tvSeries
+tt1477834,Aquaman,2018,NULL,143,movie
+tt1478338,Bridesmaids,2011,NULL,125,movie
+tt1483013,Oblivion,2013,NULL,124,movie
+tt1485796,The Greatest Showman,2017,NULL,105,movie
+tt1490017,The Lego Movie,2014,NULL,100,movie
+tt1499658,Horrible Bosses,2011,NULL,98,movie
+tt1504320,The King's Speech,2010,NULL,118,movie
+tt1515091,Sherlock Holmes: A Game of Shadows,2011,NULL,129,movie
+tt1517268,Barbie,2023,NULL,114,movie
+tt1517451,A Star Is Born,2018,NULL,136,movie
+tt1520211,The Walking Dead,2010,2022,45,tvSeries
+tt15239678,Dune: Part Two,2024,NULL,166,movie
+tt1535108,Elysium,2013,NULL,109,movie
+tt1535109,Captain Phillips,2013,NULL,134,movie
+tt15398776,Oppenheimer,2023,NULL,180,movie
+tt1542344,127 Hours,2010,NULL,94,movie
+tt1564367,Just Go with It,2011,NULL,117,movie
+tt1568346,The Girl with the Dragon Tattoo,2011,NULL,158,movie
+tt1570728,"Crazy, Stupid, Love.",2011,NULL,118,movie
+tt1586680,Shameless,2011,2021,60,tvSeries
+tt1587310,Maleficent,2014,NULL,97,movie
+tt1591095,Insidious,2010,NULL,103,movie
+tt1596343,Fast Five,2011,NULL,130,movie
+tt1596363,The Big Short,2015,NULL,130,movie
+tt1598778,Contagion,2011,NULL,106,movie
+tt1601913,The Grey,2011,NULL,117,movie
+tt1605783,Midnight in Paris,2011,NULL,94,movie
+tt1630029,Avatar: The Way of Water,2022,NULL,192,movie
+tt1631867,Edge of Tomorrow,2014,NULL,113,movie
+tt1632701,Suits,2011,2019,45,tvSeries
+tt1632708,Friends with Benefits,2011,NULL,109,movie
+tt1637688,In Time,2011,NULL,109,movie
+tt1637725,Ted,2012,NULL,106,movie
+tt1638355,The Man from U.N.C.L.E.,2015,NULL,116,movie
+tt1645170,The Dictator,2012,NULL,83,movie
+tt1646971,How to Train Your Dragon 2,2014,NULL,102,movie
+tt1650062,Super 8,2011,NULL,112,movie
+tt1650554,Kick-Ass 2,2013,NULL,103,movie
+tt1659337,The Perks of Being a Wallflower,2012,NULL,103,movie
+tt1663202,The Revenant,2015,NULL,156,movie
+tt1663662,Pacific Rim,2013,NULL,131,movie
+tt1670345,Now You See Me,2013,NULL,115,movie
+tt1673434,The Twilight Saga: Breaking Dawn - Part 2,2012,NULL,115,movie
+tt1675434,The Intouchables,2011,NULL,112,movie
+tt1677720,Ready Player One,2018,NULL,140,movie
+tt1690953,Despicable Me 2,2013,NULL,98,movie
+tt1706593,Chronicle,2012,NULL,84,movie
+tt1706620,Snowpiercer,2013,NULL,126,movie
+tt1707386,Les Misérables,2012,NULL,158,movie
+tt1723121,We're the Millers,2013,NULL,110,movie
+tt1727824,Bohemian Rhapsody,2018,NULL,134,movie
+tt1735898,Snow White and the Huntsman,2012,NULL,127,movie
+tt1745960,Top Gun: Maverick,2022,NULL,130,movie
+tt1748122,Moonrise Kingdom,2012,NULL,94,movie
+tt17526714,The Substance,2024,NULL,141,movie
+tt1764651,The Expendables 2,2012,NULL,103,movie
+tt1772341,Wreck-It Ralph,2012,NULL,101,movie
+tt1790809,Pirates of the Caribbean: Dead Men Tell No Tales,2017,NULL,129,movie
+tt1790864,The Maze Runner,2014,NULL,113,movie
+tt1790885,Zero Dark Thirty,2012,NULL,157,movie
+tt1796960,Homeland,2011,2020,60,tvSeries
+tt1798684,Southpaw,2015,NULL,124,movie
+tt1798709,Her,2013,NULL,126,movie
+tt1800241,American Hustle,2013,NULL,138,movie
+tt1817273,The Place Beyond the Pines,2012,NULL,140,movie
+tt1823672,Chappie,2015,NULL,120,movie
+tt1825683,Black Panther,2018,NULL,134,movie
+tt1832382,A Separation,2011,NULL,123,movie
+tt1837492,13 Reasons Why,2017,2020,60,tvSeries
+tt1840309,Divergent,2014,NULL,139,movie
+tt1843866,Captain America: The Winter Soldier,2014,NULL,136,movie
+tt1844624,American Horror Story,2011,NULL,60,tvSeries
+tt1853728,Django Unchained,2012,NULL,165,movie
+tt1855199,End of Watch,2012,NULL,109,movie
+tt1856010,House of Cards,2013,2018,50,tvSeries
+tt1856101,Blade Runner 2049,2017,NULL,164,movie
+tt1872181,The Amazing Spider-Man 2,2014,NULL,142,movie
+tt1877830,The Batman,2022,NULL,176,movie
+tt1877832,X-Men: Days of Future Past,2014,NULL,132,movie
+tt1895587,Spotlight,2015,NULL,129,movie
+tt1905041,Fast & Furious 6,2013,NULL,130,movie
+tt1907668,Flight,2012,NULL,138,movie
+tt1922777,Sinister,2012,NULL,110,movie
+tt1931533,Seven Psychopaths,2012,NULL,110,movie
+tt1950186,Ford v Ferrari,2019,NULL,152,movie
+tt1951261,The Hangover Part III,2013,NULL,100,movie
+tt1951264,The Hunger Games: Catching Fire,2013,NULL,146,movie
+tt1951265,The Hunger Games: Mockingjay - Part 1,2014,NULL,123,movie
+tt1951266,The Hunger Games: Mockingjay - Part 2,2015,NULL,137,movie
+tt1959490,Noah,2014,NULL,138,movie
+tt1979320,Rush,2013,NULL,123,movie
+tt1979376,Toy Story 4,2019,NULL,100,movie
+tt1981115,Thor: The Dark World,2013,NULL,112,movie
+tt1981677,Pitch Perfect,2012,NULL,112,movie
+tt2004420,Neighbors,2014,NULL,97,movie
+tt2005151,War Dogs,2016,NULL,114,movie
+tt2015381,Guardians of the Galaxy,2014,NULL,121,movie
+tt2024469,Non-Stop,2014,NULL,106,movie
+tt2024544,12 Years a Slave,2013,NULL,134,movie
+tt2084970,The Imitation Game,2014,NULL,114,movie
+tt2085059,Black Mirror,2011,NULL,60,tvSeries
+tt2096673,Inside Out,2015,NULL,95,movie
+tt2103281,Dawn of the Planet of the Apes,2014,NULL,130,movie
+tt2106476,The Hunt,2012,NULL,115,movie
+tt2109248,Transformers: Age of Extinction,2014,NULL,165,movie
+tt2119532,Hacksaw Ridge,2016,NULL,139,movie
+tt2126355,San Andreas,2015,NULL,114,movie
+tt2140479,The Accountant,2016,NULL,128,movie
+tt2179136,American Sniper,2014,NULL,133,movie
+tt2193021,Arrow,2012,2020,42,tvSeries
+tt2194499,About Time,2013,NULL,123,movie
+tt2243973,Hannibal,2013,2015,45,tvSeries
+tt2245084,Big Hero 6,2014,NULL,102,movie
+tt2250912,Spider-Man: Homecoming,2017,NULL,133,movie
+tt2267998,Gone Girl,2014,NULL,149,movie
+tt2277860,Finding Dory,2016,NULL,97,movie
+tt2278388,The Grand Budapest Hotel,2014,NULL,99,movie
+tt2283362,Jumanji: Welcome to the Jungle,2017,NULL,119,movie
+tt2293640,Minions,2015,NULL,91,movie
+tt2294449,22 Jump Street,2014,NULL,112,movie
+tt2294629,Frozen,2013,NULL,102,movie
+tt2302755,Olympus Has Fallen,2013,NULL,119,movie
+tt2306299,Vikings,2013,2020,45,tvSeries
+tt2310332,The Hobbit: The Battle of the Five Armies,2014,NULL,144,movie
+tt2316204,Alien: Covenant,2017,NULL,122,movie
+tt2322441,Fifty Shades of Grey,2015,NULL,125,movie
+tt2356777,True Detective,2014,NULL,60,tvSeries
+tt2361509,The Intern,2015,NULL,121,movie
+tt2372162,Orange Is the New Black,2013,2019,60,tvSeries
+tt2379713,Spectre,2015,NULL,148,movie
+tt2380307,Coco,2017,NULL,105,movie
+tt2381249,Mission: Impossible - Rogue Nation,2015,NULL,131,movie
+tt2381941,Focus,2015,NULL,105,movie
+tt2382320,No Time to Die,2021,NULL,163,movie
+tt2395427,Avengers: Age of Ultron,2015,NULL,141,movie
+tt2397535,Predestination,2014,NULL,97,movie
+tt2442560,Peaky Blinders,2013,2022,60,tvSeries
+tt2467372,Brooklyn Nine-Nine,2013,2021,22,tvSeries
+tt2488496,Star Wars: Episode VII - The Force Awakens,2015,NULL,138,movie
+tt2527336,Star Wars: Episode VIII - The Last Jedi,2017,NULL,152,movie
+tt2527338,Star Wars: Episode IX - The Rise of Skywalker,2019,NULL,141,movie
+tt2543164,Arrival,2016,NULL,116,movie
+tt2560140,Attack on Titan,2013,2023,24,tvSeries
+tt2562232,Birdman or (The Unexpected Virtue of Ignorance),2014,NULL,119,movie
+tt2582782,Hell or High Water,2016,NULL,102,movie
+tt2582802,Whiplash,2014,NULL,106,movie
+tt2582846,The Fault in Our Stars,2014,NULL,126,movie
+tt2584384,Jojo Rabbit,2019,NULL,108,movie
+tt2660888,Star Trek Beyond,2016,NULL,122,movie
+tt2661044,The 100,2014,2020,43,tvSeries
+tt2674426,Me Before You,2016,NULL,110,movie
+tt2704998,Game Night,2018,NULL,100,movie
+tt2707408,Narcos,2015,2017,50,tvSeries
+tt2713180,Fury,2014,NULL,134,movie
+tt2737304,Bird Box,2018,NULL,124,movie
+tt2741602,The Blacklist,2013,2023,43,tvSeries
+tt2771200,Beauty and the Beast,2017,NULL,129,movie
+tt2788710,The Interview,2014,NULL,112,movie
+tt2798920,Annihilation,2018,NULL,115,movie
+tt2802144,Kingsman: The Secret Service,2014,NULL,129,movie
+tt2802850,Fargo,2014,2024,60,tvSeries
+tt2820852,Furious 7,2015,NULL,137,movie
+tt2861424,Rick and Morty,2013,NULL,23,tvSeries
+tt2872718,Nightcrawler,2014,NULL,117,movie
+tt2872732,Lucy,2014,NULL,89,movie
+tt2908446,Insurgent,2015,NULL,119,movie
+tt2911666,John Wick,2014,NULL,101,movie
+tt2935510,Ad Astra,2019,NULL,123,movie
+tt2948356,Zootopia,2016,NULL,108,movie
+tt2948372,Soul,2020,NULL,100,movie
+tt2953050,Encanto,2021,NULL,102,movie
+tt2975590,Batman v Superman: Dawn of Justice,2016,NULL,151,movie
+tt2980516,The Theory of Everything,2014,NULL,123,movie
+tt3032476,Better Call Saul,2015,2022,45,tvSeries
+tt3040964,The Jungle Book,2016,NULL,106,movie
+tt3065204,The Conjuring 2,2016,NULL,134,movie
+tt3076658,Creed,2015,NULL,133,movie
+tt3079380,Spy,2015,NULL,120,movie
+tt3107288,The Flash,2014,2023,43,tvSeries
+tt3110958,Now You See Me 2,2016,NULL,129,movie
+tt3170832,Room,2015,NULL,118,movie
+tt3183660,Fantastic Beasts and Where to Find Them,2016,NULL,132,movie
+tt3228774,Cruella,2021,NULL,134,movie
+tt3235888,It Follows,2014,NULL,100,movie
+tt3263904,Sully,2016,NULL,96,movie
+tt3281548,Little Women,2019,NULL,135,movie
+tt3315342,Logan,2017,NULL,137,movie
+tt3322312,Daredevil,2015,2018,60,tvSeries
+tt3385516,X-Men: Apocalypse,2016,NULL,144,movie
+tt3397884,Sicario,2015,NULL,121,movie
+tt3402236,Murder on the Orient Express,2017,NULL,114,movie
+tt3450958,War for the Planet of the Apes,2017,NULL,140,movie
+tt3460252,The Hateful Eight,2015,NULL,168,movie
+tt3464902,The Lobster,2015,NULL,119,movie
+tt3480822,Black Widow,2021,NULL,134,movie
+tt3498820,Captain America: Civil War,2016,NULL,147,movie
+tt3501632,Thor: Ragnarok,2017,NULL,130,movie
+tt3521164,Moana,2016,NULL,107,movie
+tt3581920,The Last of Us,2023,NULL,50,tvSeries
+tt3606756,Incredibles 2,2018,NULL,118,movie
+tt3659388,The Martian,2015,NULL,144,movie
+tt3682448,Bridge of Spies,2015,NULL,142,movie
+tt3731562,Kong: Skull Island,2017,NULL,118,movie
+tt3748528,Rogue One: A Star Wars Story,2016,NULL,133,movie
+tt3778644,Solo: A Star Wars Story,2018,NULL,135,movie
+tt3783958,La La Land,2016,NULL,128,movie
+tt3799694,The Nice Guys,2016,NULL,116,movie
+tt3890160,Baby Driver,2017,NULL,113,movie
+tt3896198,Guardians of the Galaxy Vol. 2,2017,NULL,136,movie
+tt4034228,Manchester by the Sea,2016,NULL,137,movie
+tt4046784,Maze Runner: The Scorch Trials,2015,NULL,131,movie
+tt4052886,Lucifer,2016,2021,45,tvSeries
+tt4123430,Fantastic Beasts: The Crimes of Grindelwald,2018,NULL,134,movie
+tt4154664,Captain Marvel,2019,NULL,123,movie
+tt4154756,Avengers: Infinity War,2018,NULL,149,movie
+tt4154796,Avengers: Endgame,2019,NULL,181,movie
+tt4158110,Mr. Robot,2015,2019,45,tvSeries
+tt4160708,Don't Breathe,2016,NULL,88,movie
+tt4236770,Yellowstone,2018,2024,60,tvSeries
+tt4263482,The Witch,2015,NULL,92,movie
+tt4425200,John Wick: Chapter 2,2017,NULL,122,movie
+tt4550098,Nocturnal Animals,2016,NULL,116,movie
+tt4574334,Stranger Things,2016,2025,60,tvSeries
+tt4630562,The Fate of the Furious,2017,NULL,136,movie
+tt4633694,Spider-Man: Into the Spider-Verse,2018,NULL,117,movie
+tt4649466,Kingsman: The Golden Circle,2017,NULL,141,movie
+tt4786824,The Crown,2016,2023,60,tvSeries
+tt4846340,Hidden Figures,2016,NULL,127,movie
+tt4881806,Jurassic World: Fallen Kingdom,2018,NULL,128,movie
+tt4912910,Mission: Impossible - Fallout,2018,NULL,147,movie
+tt4925292,Lady Bird,2017,NULL,94,movie
+tt4972582,Split,2016,NULL,117,movie
+tt4975722,Moonlight,2016,NULL,111,movie
+tt5013056,Dunkirk,2017,NULL,106,movie
+tt5027774,"Three Billboards Outside Ebbing, Missouri",2017,NULL,115,movie
+tt5052448,Get Out,2017,NULL,104,movie
+tt5071412,Ozark,2017,2022,60,tvSeries
+tt5095030,Ant-Man and the Wasp,2018,NULL,118,movie
+tt5180504,The Witcher,2019,NULL,60,tvSeries
+tt5290382,Mindhunter,2017,2019,60,tvSeries
+tt5311514,Your Name.,2016,NULL,106,movie
+tt5362988,Wind River,2017,NULL,107,movie
+tt5442430,Life,2017,NULL,104,movie
+tt5463162,Deadpool 2,2018,NULL,119,movie
+tt5537002,Killers of the Flower Moon,2023,NULL,206,movie
+tt5580390,The Shape of Water,2017,NULL,123,movie
+tt5675620,The Punisher,2017,2019,60,tvSeries
+tt5700672,Train to Busan,2016,NULL,118,movie
+tt5726616,Call Me by Your Name,2017,NULL,132,movie
+tt5727208,Uncut Gems,2019,NULL,135,movie
+tt5753856,Dark,2017,2020,60,tvSeries
+tt5834204,The Handmaid's Tale,2017,2025,60,tvSeries
+tt6027920,The Iron Throne,2019,NULL,80,tvEpisode
+tt6105098,The Lion King,2019,NULL,118,movie
+tt6139732,Aladdin,2019,NULL,128,movie
+tt6146586,John Wick: Chapter 3 - Parabellum,2019,NULL,130,movie
+tt6208148,Snow White,2025,NULL,109,movie
+tt6263850,Deadpool & Wolverine,2024,NULL,128,movie
+tt6264654,Free Guy,2021,NULL,115,movie
+tt6320628,Spider-Man: Far from Home,2019,NULL,129,movie
+tt6334354,The Suicide Squad,2021,NULL,132,movie
+tt6443346,Black Adam,2022,NULL,125,movie
+tt6468322,Money Heist,2017,2021,60,tvSeries
+tt6644200,A Quiet Place,2018,NULL,90,movie
+tt6710474,Everything Everywhere All at Once,2022,NULL,139,movie
+tt6718170,The Super Mario Bros. Movie,2023,NULL,92,movie
+tt6723592,Tenet,2020,NULL,150,movie
+tt6741278,Invincible,2021,NULL,50,tvSeries
+tt6751668,Parasite,2019,NULL,132,movie
+tt6763664,The Haunting of Hill House,2018,2018,60,tvMiniSeries
+tt6791350,Guardians of the Galaxy Vol. 3,2023,NULL,150,movie
+tt6823368,Glass,2019,NULL,129,movie
+tt6857112,Us,2019,NULL,116,movie
+tt6966692,Green Book,2018,NULL,130,movie
+tt7097896,Venom: Let There Be Carnage,2021,NULL,97,movie
+tt7126948,Wonder Woman 1984,2020,NULL,151,movie
+tt7131622,Once Upon a Time... in Hollywood,2019,NULL,161,movie
+tt7286456,Joker,2019,NULL,122,movie
+tt7335184,You,2018,2025,45,tvSeries
+tt7349662,BlacKkKlansman,2018,NULL,135,movie
+tt7349950,It Chapter Two,2019,NULL,169,movie
+tt7366338,Chernobyl,2019,2019,60,tvMiniSeries
+tt7631058,The Lord of the Rings: The Rings of Power,2022,NULL,60,tvSeries
+tt7653254,Marriage Story,2019,NULL,137,movie
+tt7660850,Succession,2018,2023,60,tvSeries
+tt7713068,Birds of Prey and the Fantabulous Emancipation of One Harley Quinn,2020,NULL,109,movie
+tt7767422,Sex Education,2019,2023,60,tvSeries
+tt7784604,Hereditary,2018,NULL,127,movie
+tt7888964,Nobody,2021,NULL,92,movie
+tt7975244,Jumanji: The Next Level,2019,NULL,123,movie
+tt7984734,The Lighthouse,2019,NULL,109,movie
+tt7991608,Red Notice,2021,NULL,118,movie
+tt8111088,The Mandalorian,2019,NULL,40,tvSeries
+tt8228288,The Platform,2019,NULL,94,movie
+tt8332922,A Quiet Place Part II,2020,NULL,97,movie
+tt8367814,The Gentlemen,2019,NULL,113,movie
+tt8579674,1917,2019,NULL,119,movie
+tt8772262,Midsommar,2019,NULL,148,movie
+tt8772296,Euphoria,2019,NULL,60,tvSeries
+tt8936646,Extraction,2020,NULL,116,movie
+tt8946378,Knives Out,2019,NULL,130,movie
+tt9032400,Eternals,2021,NULL,156,movie
+tt9114286,Black Panther: Wakanda Forever,2022,NULL,161,movie
+tt9140554,Loki,2021,2023,50,tvSeries
+tt9140560,WandaVision,2021,2021,39,tvMiniSeries
+tt9208876,The Falcon and the Winter Soldier,2021,2021,50,tvMiniSeries
+tt9243946,El Camino,2019,NULL,122,movie
+tt9362722,Spider-Man: Across the Spider-Verse,2023,NULL,140,movie
+tt9376612,Shang-Chi and the Legend of the Ten Rings,2021,NULL,132,movie
+tt9419884,Doctor Strange in the Multiverse of Madness,2022,NULL,126,movie
+tt9603212,Mission: Impossible - Dead Reckoning Part One,2023,NULL,163,movie
+tt9764362,The Menu,2022,NULL,107,movie
